@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+</head>
+<body>
+    <main>
+        <section class="flex">
+            <img src="./images/yellow-blob.png" alt="yellow" class="yellow-blob">
+            <img src="./images/mobile.png" alt="phone" class="phone">
+        </section>
+
+        <section class="flex form-section row">
+            <h1 class="create">Create Account</h1>
+            <form action="POST" method="post" class="form">
+                <div class="row-form">
+                    <input type="text" name="firstName" placeholder="First Name" class="text">
+                    <input type="text" name="lastName" placeholder="Last Name" class="text">
+                </div>
+                
+                <input type="mail" name="gmail" placeholder="Gmail" class="row-form input">
+
+                <div class="row-form">
+                    <input type="password" name="password" placeholder="Password" class="text">
+                    <input type="text" name="confirmPassword" placeholder="Confirm Password" class="text">
+                </div>
+
+                <button class="btn btn-submit">Sign Up</button>
+            </form>
+
+            <div class="flex row">
+                <div class="or">OR</div>
+                <button class="btn btn-google">Google</button>
+                <button class="btn btn-facebook">Facebook</button>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
